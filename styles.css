@@ -1,14 +1,15 @@
-.moviepic{
-	opacity:90%;
+.moviePic{
+	opacity:1;
 	height:300px;
 	width:300px;
-	position:left;
+	position:relative;
 }
-.moviedetail{
-	position:fixed;
-	text-align:justify;
+.movieDetail{
+	position:relative;
+	text-align:center;
 	font-size:20px;
-	top:1px;
-	width:1px;
+	top:50%;
+	transform:-50%;
+	width:50%;
 }
 /* Your CSS Code here. */
